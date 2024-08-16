@@ -1,23 +1,44 @@
-# Portfolio Page
+# vCard - Personal portfolio
 
-Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/)
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-## Building Process
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-1. Imported starter VanillaJS/Webpack template from [4GeeksAcademy](https://www.4geeksacademy.co/).
-2. The first approach was to create a single page portfolio to start building what is known as [SmoothScroll](https://css-tricks.com/snippets/jquery/smooth-scrolling/) using my own code. 
-3. After setting up some variables, I created fade-in animations from right, left, top, and bottom position using CSS3+JS. 
-4. I used Bootstrap and JS to create the fillingBar effect in the skill section.
-5. Most of the page uses Bootstrap, except for the modal gallery that has my own CSS3 flex-box code. 
-6. Created different modals for the gallery project and using JavaScript onclick event could show each project modal.
-7. The form uses [formsfree.io](https://formspree.io/) for the backend.
-8. I used images from [unsplash](https://unsplash.com) which are free to use and icons from [flaticon](https://www.flaticon.com/) which are also free to use.
-9. I wanted to create an amazing animated background at the top of the page, so I used some help from [codepen.io](https://codepen.io/saransh/pen/BKJun) and adapted the code to my website.
+## Demo
 
-##  Challenges that took me some time to solve
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-1. First, doing SmoothScroll + CSSAnimations was my biggest challenge because all I found was JS animation libraries to use in my code. I wanted to created my own animations, so I found a method in [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) that solved most of my scrolling problems.
-2. After using Bootstrap for a while I had to re learn some CSS3 tricks like flex-box and how to use @keyframes + animation.
+## Prerequisites
 
-## Conclusion
-Thanks for visiting my portfolio-website and for taking time to read this!
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+## Installing vCard
+
+To install **vCard**, follow these steps:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+## Contact
+
+If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+## License
+
+MIT
